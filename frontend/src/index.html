@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <link href="https://cdn.bootcdn.net/ajax/libs/vuetify/2.3.8/vuetify.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+
+    <style>
+        body,#zi {
+            text-align: center;
+         }
+    </style>
+
+</head>
+
+<body>
+        <figure>
+           <canvas id="zi"  width="600px" height="600px" ></canvas> 
+        </figure>
+
+      <div id="app">
+        <v-app>
+          <v-main>
+            <v-container> 
+                   <v-row align="center" justify="center" >
+
+                        <v-icon @click="stop">mdi-cancel</v-icon>
+                        <div class="mx-2"></div>
+
+                        <v-icon @click="change(-1)">mdi-arrow-left</v-icon>
+                        <div class="mx-2"></div>
+
+                        <v-icon @click="change(1)">mdi-arrow-right</v-icon>
+                        <div class="mx-2"></div>
+
+                        <v-icon>mdi-heart</v-icon>
+                        <div class="mx-2"></div>
+
+                        <v-icon>mdi-pencil</v-icon>
+                        <div class="mx-2"></div>
+
+                        <v-icon>mdi-thumb-up</v-icon>
+                        <div class="mx-2"></div>
+
+                        <v-icon>mdi-thumb-down</v-icon>
+                        <div class="mx-2"></div>
+
+                        <v-icon>mdi-delete</v-icon>
+                        <div class="mx-2"></div>
+
+                        <v-icon>mdi-share-variant</v-icon>
+
+                  </v-row>
+            </v-container>
+
+
+          </v-main>
+        </v-app>
+      </div>
+
+</body>
+
+</html>
+
+
+
+<script src="https://cdn.bootcdn.net/ajax/libs/superagent/4.1.0/superagent.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/ramda/0.27.1/ramda.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/rxjs/7.0.0-alpha.0/rxjs.umd.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/vuetify/2.3.8/vuetify.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/d3/6.0.0-rc.3/d3.min.js"></script>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/localforage/1.9.0/localforage.min.js"></script>
+
+
+<script src="draw.js"></script>
+
