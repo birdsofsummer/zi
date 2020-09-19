@@ -1,10 +1,6 @@
 /lib/
 node_modules/
 /node_modules/
-dist/
-/dist/
-json/
-/json/
 target/
 /target/
 migrations/
@@ -21,7 +17,6 @@ tmp/*
 /.serverless/
 *.env
 *.pem
-frontend1/
 frontend/src/tmp
 
 
