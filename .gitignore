@@ -13,7 +13,6 @@ seeders/
 /seeders/
 /tmp/
 /temp/
-/data/
 tmp/*
 *.zip
 *.db
@@ -24,7 +23,5 @@ tmp/*
 *.pem
 frontend1/
 frontend/src/tmp
-/data/
-data/
 
 
